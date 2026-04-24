@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — bel of mail direct | MiCris Uitzendbureau</title>
+  <meta name="description" content="Neem direct contact op met MiCris Uitzendbureau voor vakkrachten in open teelten of GWW. Ma–za bereikbaar, spoed 24/7." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <span class="logo__name">MiCris</span>
+        <span class="logo__descriptor">Uitzendbureau</span>
+      </a>
+      <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="open-teelten.html">Open teelten</a></li>
+        <li><a href="gww.html">GWW</a></li>
+        <li><a href="over-ons.html">Over ons</a></li>
+        <li><a href="contact.html" class="is-active">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--outline">Personeel aanvragen</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HEAD -->
+  <section class="page-hero" style="padding-bottom: 0;">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Kruimelpad">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">/</span>
+        <a href="#" aria-current="page">Contact</a>
+      </nav>
+      <div style="max-width: 640px;">
+        <span class="eyebrow">Contact</span>
+        <h1 class="page-hero__title">Eén telefoontje en we zijn in gesprek.</h1>
+        <p class="page-hero__lead" style="margin-bottom: 0;">
+          Geen keuzemenu's, geen formulierkabouters. U spreekt direct iemand die weet waar u het over
+          heeft en binnen handbereik de juiste vakkrachten kan vinden.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT DETAILS -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- LINKER KOLOM: telefoon, e-mail, openingstijden -->
+        <div>
+          <a href="tel:+31000000000" class="contact-card">
+            <span class="contact-card__icon contact-card__icon--accent">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <h3>Bel direct</h3>
+              <p class="contact-card__value">+31 (0)0 000 00 00</p>
+              <p class="contact-card__meta">Snelste route voor een aanvraag of spoedgeval.</p>
+            </div>
+          </a>
+
+          <a href="mailto:info@micris-uitzendbureau.nl" class="contact-card">
+            <span class="contact-card__icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            </span>
+            <div>
+              <h3>E-mail</h3>
+              <p class="contact-card__value">info@micris-uitzendbureau.nl</p>
+              <p class="contact-card__meta">Antwoord binnen één werkdag.</p>
+            </div>
+          </a>
+
+          <div class="hours">
+            <h3>Openingstijden</h3>
+            <dl>
+              <dt>Maandag – vrijdag</dt>
+              <dd>07:00 – 19:00</dd>
+              <dt>Zaterdag</dt>
+              <dd>08:00 – 13:00</dd>
+              <dt>Zondag</dt>
+              <dd>gesloten</dd>
+            </dl>
+            <p class="hours__note">
+              <strong>Spoed?</strong> Buiten kantoortijden zijn we bereikbaar voor bestaande opdrachtgevers
+              via hetzelfde telefoonnummer. Inspreken kan altijd — u wordt dezelfde dag teruggebeld.
+            </p>
+          </div>
+        </div>
+
+        <!-- RECHTER KOLOM: adres + map placeholder -->
+        <div>
+          <div class="map-card">
+            <div class="map-card__visual" aria-hidden="true">
+              <!-- Stilistische "kaart" in huisstijl. Later te vervangen door Google Maps embed. -->
+              <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0" y="0" width="400" height="300" fill="#2E5A3F"/>
+                <!-- abstract road network -->
+                <g stroke="#1F3D2B" stroke-width="10" fill="none" opacity="0.6">
+                  <line x1="-20" y1="80" x2="420" y2="100"/>
+                  <line x1="-20" y1="220" x2="420" y2="210"/>
+                  <line x1="100" y1="-20" x2="120" y2="320"/>
+                  <line x1="280" y1="-20" x2="260" y2="320"/>
+                </g>
+                <!-- thin secondary -->
+                <g stroke="#F5F1E8" stroke-width="2" fill="none" opacity="0.2">
+                  <line x1="-20" y1="80" x2="420" y2="100"/>
+                  <line x1="-20" y1="220" x2="420" y2="210"/>
+                  <line x1="100" y1="-20" x2="120" y2="320"/>
+                  <line x1="280" y1="-20" x2="260" y2="320"/>
+                </g>
+                <!-- water -->
+                <path d="M 0 260 Q 100 240, 200 265 T 400 250 L 400 310 L 0 310 Z" fill="#17301F" opacity="0.7"/>
+                <!-- green patches -->
+                <rect x="40"  y="125" width="45" height="70" rx="3" fill="#17301F" opacity="0.5"/>
+                <rect x="160" y="120" width="80" height="75" rx="3" fill="#17301F" opacity="0.5"/>
+                <rect x="310" y="125" width="60" height="75" rx="3" fill="#17301F" opacity="0.5"/>
+                <!-- location pin -->
+                <g transform="translate(200, 140)">
+                  <!-- pulse ring -->
+                  <circle cx="0" cy="20" r="20" fill="#D98E2B" opacity="0.18"/>
+                  <circle cx="0" cy="20" r="12" fill="#D98E2B" opacity="0.35"/>
+                  <!-- pin -->
+                  <path d="M 0 -8 C -10 -8, -14 0, -14 8 C -14 18, 0 30, 0 30 C 0 30, 14 18, 14 8 C 14 0, 10 -8, 0 -8 Z" fill="#D98E2B"/>
+                  <circle cx="0" cy="8" r="5" fill="#1F3D2B"/>
+                </g>
+              </svg>
+            </div>
+            <div class="map-card__body">
+              <h3>Bezoekadres</h3>
+              <p class="map-card__address">
+                Voorbeeldstraat 1<br/>
+                0000 AA Voorbeeldstad
+              </p>
+              <p class="map-card__address-meta">Bezoek uitsluitend op afspraak.</p>
+              <a href="https://maps.google.com/?q=Voorbeeldstraat+1,Voorbeeldstad" target="_blank" rel="noopener" class="btn btn--ghost">
+                Open in Google Maps
+                <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BEDRIJFSGEGEVENS STRIP -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Bedrijfsgegevens</span>
+        <h2>Voor de administratie.</h2>
+      </div>
+      <div class="function-grid" style="border-top: none; padding-top: 0.5rem;">
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">Statutaire naam</strong> — MiCris Uitzendbureau B.V.</span>
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">KvK-nummer</strong> — 00000000</span>
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">BTW-nummer</strong> — NL000000000B01</span>
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">SNA / NEN 4400-1</strong> — geregistreerd</span>
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">ABU-lidmaatschap</strong> — erkend uitzendbureau</span>
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          <span><strong style="color: var(--c-primary); font-weight: 500;">IBAN</strong> — op aanvraag</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <div class="logo" style="display:flex; flex-direction: column;">
+            <span class="logo__name">MiCris</span>
+            <span class="logo__descriptor">Uitzendbureau</span>
+          </div>
+          <p>Uitzendbureau voor open teelten en GWW. Gecertificeerd, betrouwbaar, dichtbij.</p>
+        </div>
+        <div>
+          <h4>Branches</h4>
+          <ul>
+            <li><a href="open-teelten.html">Open teelten</a></li>
+            <li><a href="gww.html">Grond-, weg- en waterbouw</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Bedrijf</h4>
+          <ul>
+            <li><a href="over-ons.html">Over ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Direct contact</h4>
+          <ul>
+            <li><a href="tel:+31000000000">+31 (0)0 000 00 00</a></li>
+            <li><a href="mailto:info@micris-uitzendbureau.nl">info@micris-uitzendbureau.nl</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> MiCris Uitzendbureau B.V. · KvK 00000000 · SNA / NEN 4400-1 / ABU</span>
+        <span><a href="#">Privacy</a> · <a href="#">Algemene voorwaarden</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav__toggle');
+      var list = document.getElementById('primary-nav');
+      if (!btn || !list) return;
+      btn.addEventListener('click', function () {
+        var open = list.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grond-, weg- en waterbouw — uitzendbureau voor aannemers | MiCris</title>
+  <meta name="description" content="MiCris Uitzendbureau levert vakkrachten aan GWW-aannemers: grondwerkers, machinisten, stratenmakers en uitvoerders. VCA-gecertificeerd personeel met de juiste papieren." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo" aria-label="MiCris Uitzendbureau — naar homepagina">
+        <span class="logo__name">MiCris</span>
+        <span class="logo__descriptor">Uitzendbureau</span>
+      </a>
+      <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="open-teelten.html">Open teelten</a></li>
+        <li><a href="gww.html" class="is-active">GWW</a></li>
+        <li><a href="over-ons.html">Over ons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--outline">Personeel aanvragen</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Kruimelpad">
+        <a href="index.html">Home</a>
+        <span class="breadcrumb__sep">/</span>
+        <a href="#" aria-current="page">GWW</a>
+      </nav>
+      <div class="page-hero__grid">
+        <div class="page-hero__text">
+          <span class="eyebrow">Branche — grond-, weg- en waterbouw</span>
+          <h1 class="page-hero__title">Vakkrachten met de juiste papieren.</h1>
+          <p class="page-hero__lead">
+            Op de bouwplaats draait alles om betrouwbaarheid en certificering. MiCris levert
+            grondwerkers, machinisten en stratenmakers die klaarstaan, VCA in de pocket en
+            gewend zijn om aan te pakken.
+          </p>
+          <div class="hero__cta">
+            <a href="contact.html" class="btn btn--primary">
+              Personeel aanvragen
+              <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </a>
+            <a href="#functies" class="btn btn--outline">Bekijk functies</a>
+          </div>
+        </div>
+
+        <div class="page-hero__visual" role="img" aria-label="Sfeerbeeld van een bouwplaats met graafmachine en pylonen">
+          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="g-sky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%"  stop-color="#2E5A3F"/>
+                <stop offset="100%" stop-color="#17301F"/>
+              </linearGradient>
+            </defs>
+            <rect x="0" y="0" width="400" height="180" fill="url(#g-sky)"/>
+            <!-- sun -->
+            <circle cx="320" cy="50" r="40" fill="#D98E2B" opacity="0.22"/>
+            <circle cx="320" cy="50" r="20" fill="#D98E2B" opacity="0.55"/>
+            <circle cx="320" cy="50" r="11" fill="#E8A44B" opacity="0.85"/>
+            <!-- ground layers -->
+            <rect x="0" y="180" width="400" height="120" fill="#5C4A2E"/>
+            <rect x="0" y="180" width="400" height="6" fill="#6B5535"/>
+            <!-- trench / excavated area -->
+            <polygon points="0,190 140,190 170,250 0,250" fill="#3A2E1C"/>
+            <polygon points="0,190 140,190 148,205 0,205" fill="#4A3A24"/>
+            <!-- road asphalt -->
+            <polygon points="180,300 400,300 400,200 220,200" fill="#3B3B38"/>
+            <!-- road markings -->
+            <rect x="260" y="215" width="20" height="4" fill="#F5F1E8"/>
+            <rect x="300" y="230" width="20" height="4" fill="#F5F1E8"/>
+            <rect x="340" y="247" width="20" height="4" fill="#F5F1E8"/>
+            <!-- pylons along road -->
+            <g transform="translate(200, 220)">
+              <polygon points="0,0 8,0 12,22 -4,22" fill="#D98E2B"/>
+              <rect x="-6" y="21" width="20" height="4" fill="#2C2C2A"/>
+              <rect x="-2" y="7" width="12" height="3" fill="#F5F1E8"/>
+            </g>
+            <g transform="translate(230, 245)">
+              <polygon points="0,0 8,0 12,22 -4,22" fill="#D98E2B"/>
+              <rect x="-6" y="21" width="20" height="4" fill="#2C2C2A"/>
+              <rect x="-2" y="7" width="12" height="3" fill="#F5F1E8"/>
+            </g>
+            <g transform="translate(265, 272)">
+              <polygon points="0,0 8,0 12,22 -4,22" fill="#D98E2B"/>
+              <rect x="-6" y="21" width="20" height="4" fill="#2C2C2A"/>
+            </g>
+            <!-- excavator -->
+            <g transform="translate(60, 130)">
+              <!-- tracks -->
+              <rect x="-5" y="75" width="95" height="16" rx="7" fill="#1A1A1A"/>
+              <circle cx="8"  cy="83" r="5" fill="#444"/>
+              <circle cx="28" cy="83" r="5" fill="#444"/>
+              <circle cx="48" cy="83" r="5" fill="#444"/>
+              <circle cx="68" cy="83" r="5" fill="#444"/>
+              <circle cx="85" cy="83" r="5" fill="#444"/>
+              <!-- body -->
+              <rect x="0" y="55" width="85" height="25" rx="3" fill="#D98E2B"/>
+              <rect x="5" y="60" width="6" height="10" fill="#2C2C2A"/>
+              <!-- cab -->
+              <rect x="15" y="28" width="38" height="30" rx="3" fill="#D98E2B"/>
+              <rect x="19" y="32" width="30" height="18" fill="#1F3D2B" opacity="0.55"/>
+              <!-- arm segment 1 -->
+              <polygon points="50,35 90,18 97,26 55,45" fill="#D98E2B"/>
+              <!-- arm segment 2 -->
+              <polygon points="90,18 130,30 128,40 88,28" fill="#D98E2B"/>
+              <!-- bucket -->
+              <path d="M 125 30 L 145 38 L 145 55 L 135 58 L 122 45 Z" fill="#2C2C2A"/>
+              <path d="M 125 30 L 145 38 L 147 36 L 127 28 Z" fill="#1A1A1A"/>
+              <!-- bucket teeth -->
+              <rect x="133" y="56" width="3" height="4" fill="#F5F1E8"/>
+              <rect x="138" y="56" width="3" height="4" fill="#F5F1E8"/>
+              <rect x="143" y="56" width="3" height="4" fill="#F5F1E8"/>
+            </g>
+            <!-- worker silhouette near road -->
+            <g transform="translate(300, 200)">
+              <!-- shadow -->
+              <ellipse cx="0" cy="50" rx="12" ry="3" fill="#000" opacity="0.2"/>
+              <!-- legs -->
+              <rect x="-5" y="18" width="4" height="32" fill="#1A1A1A"/>
+              <rect x="1"  y="18" width="4" height="32" fill="#1A1A1A"/>
+              <!-- safety vest body -->
+              <rect x="-8" y="-5" width="16" height="24" rx="2" fill="#D98E2B"/>
+              <!-- reflective stripe -->
+              <rect x="-8" y="6" width="16" height="2" fill="#F5F1E8"/>
+              <!-- arms -->
+              <rect x="-11" y="-3" width="4" height="18" rx="1" fill="#2A2A2A"/>
+              <rect x="7"  y="-3" width="4" height="18" rx="1" fill="#2A2A2A"/>
+              <!-- head -->
+              <circle cx="0" cy="-12" r="5" fill="#2E2722"/>
+              <!-- helmet -->
+              <path d="M -6 -15 Q 0 -21, 6 -15 L 6 -12 L -6 -12 Z" fill="#D98E2B"/>
+              <rect x="-7" y="-13" width="14" height="2" fill="#B87320"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEELSECTOREN -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Deelsectoren</span>
+        <h2>Waar we thuis zijn.</h2>
+        <p>
+          GWW is een brede sector. Of het nu gaat om een wijkreconstructie, een sluisrenovatie of een nieuw
+          rioleringstracé — wij leveren de mensen die het werk kennen.
+        </p>
+      </div>
+      <div class="tag-row">
+        <span class="tag">Grondwerk</span>
+        <span class="tag">Wegenbouw</span>
+        <span class="tag">Waterbouw</span>
+        <span class="tag">Riolering &amp; kabels</span>
+        <span class="tag">Bestrating</span>
+        <span class="tag">Civiele techniek</span>
+        <span class="tag">Betonwerk</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- FUNCTIES -->
+  <section class="section" id="functies">
+    <div class="container">
+      <div class="section-intro">
+        <span class="eyebrow">Functies</span>
+        <h2>Welke mensen wij leveren.</h2>
+        <p>
+          Van aanpakker tot uitvoerder — wij vullen de functies op de bouwplaats die voor uw project
+          essentieel zijn. Specifieke certificeringen nodig? Geef het door, dan zoeken we gericht.
+        </p>
+      </div>
+
+      <div class="function-grid">
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Grondwerkers
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Stratenmakers
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Machinisten (kraan, shovel, wals)
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Kabelwerkers &amp; rioleringsmonteurs
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Uitvoerders
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Werkvoorbereiders
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Vakmannen GWW / allround
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Chauffeurs (CE / code 95)
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Asfalteerders en walsmachinisten
+        </div>
+        <div class="function-item">
+          <span class="function-item__check"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></span>
+          Betonvlechters &amp; bekisters
+        </div>
+      </div>
+
+      <div class="info-strip">
+        <div class="info-strip__icon">
+          <svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-12V5l8-3 8 3v5c0 7.5-8 12-8 12z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <div>
+          <h3>Veiligheid en certificering op orde</h3>
+          <p>
+            Onze vakkrachten komen met een geldig VCA-diploma en de rijbewijzen en machinistenpapieren
+            die horen bij de functie. SNA/NEN 4400-1 gecertificeerd en ABU-lid, dus uw
+            inlenersaansprakelijkheid is dichtgetimmerd.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JUISTE PAPIEREN -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="feature-split feature-split--reverse">
+        <div class="feature-split__text">
+          <span class="eyebrow">Certificeringen</span>
+          <h2>Op de bouwplaats telt één ding: de papieren kloppen.</h2>
+          <p>
+            Geen discussie bij de poort, geen onaangename verrassingen bij een ILT-inspectie. Wij
+            selecteren vakkrachten op certificering voordat ze bij u op het werk staan — niet
+            achteraf. Standaard checken wij:
+          </p>
+          <ul class="feature-split__bullets">
+            <li>VCA Basis of VCA VOL</li>
+            <li>Rijbewijs met de juiste code (B, C, CE, T) en code 95</li>
+            <li>Machinistenpapieren (TCVT, rupskraan, shovel)</li>
+            <li>Veilig werken langs de weg (VWDW, verkeersregelaar)</li>
+            <li>Werken op hoogte / BHV waar relevant</li>
+          </ul>
+        </div>
+        <div class="feature-split__visual" aria-hidden="true">
+          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="400" height="300" fill="#1F3D2B"/>
+            <!-- stacked "badge" cards -->
+            <g transform="translate(70, 60)">
+              <rect x="0" y="0" width="180" height="50" rx="6" fill="#F5F1E8"/>
+              <rect x="0" y="0" width="8" height="50" rx="6" fill="#D98E2B"/>
+              <rect x="22" y="12" width="60" height="8" rx="2" fill="#1F3D2B"/>
+              <rect x="22" y="26" width="100" height="6" rx="2" fill="#1F3D2B" opacity="0.45"/>
+              <rect x="22" y="36" width="80" height="6" rx="2" fill="#1F3D2B" opacity="0.3"/>
+              <circle cx="158" cy="25" r="10" fill="#1F3D2B"/>
+              <polyline points="153,25 157,29 163,22" stroke="#D98E2B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <g transform="translate(110, 130)">
+              <rect x="0" y="0" width="180" height="50" rx="6" fill="#F5F1E8"/>
+              <rect x="0" y="0" width="8" height="50" rx="6" fill="#D98E2B"/>
+              <rect x="22" y="12" width="50" height="8" rx="2" fill="#1F3D2B"/>
+              <rect x="22" y="26" width="110" height="6" rx="2" fill="#1F3D2B" opacity="0.45"/>
+              <rect x="22" y="36" width="70" height="6" rx="2" fill="#1F3D2B" opacity="0.3"/>
+              <circle cx="158" cy="25" r="10" fill="#1F3D2B"/>
+              <polyline points="153,25 157,29 163,22" stroke="#D98E2B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            <g transform="translate(150, 200)">
+              <rect x="0" y="0" width="180" height="50" rx="6" fill="#F5F1E8"/>
+              <rect x="0" y="0" width="8" height="50" rx="6" fill="#D98E2B"/>
+              <rect x="22" y="12" width="70" height="8" rx="2" fill="#1F3D2B"/>
+              <rect x="22" y="26" width="90" height="6" rx="2" fill="#1F3D2B" opacity="0.45"/>
+              <rect x="22" y="36" width="100" height="6" rx="2" fill="#1F3D2B" opacity="0.3"/>
+              <circle cx="158" cy="25" r="10" fill="#1F3D2B"/>
+              <polyline points="153,25 157,29 163,22" stroke="#D98E2B" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT STRIP -->
+  <section class="section">
+    <div class="container">
+      <div class="contact-strip">
+        <div>
+          <h2>Personeel nodig voor uw project?</h2>
+          <p>
+            Of het nu één vakman voor morgen is of een vast ploegje voor drie maanden —
+            geef de klus door en we gaan ermee aan de slag.
+          </p>
+        </div>
+        <div class="contact-strip__info">
+          <a href="tel:+31000000000" class="contact-strip__item">
+            <span class="icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <strong>+31 (0)0 000 00 00</strong>
+              <span class="meta">ma–za · 07:00–19:00 · spoed 24/7</span>
+            </div>
+          </a>
+          <a href="mailto:info@micris-uitzendbureau.nl" class="contact-strip__item">
+            <span class="icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            </span>
+            <div>
+              <strong>info@micris-uitzendbureau.nl</strong>
+              <span class="meta">Antwoord binnen één werkdag</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <div class="logo" style="display:flex; flex-direction: column;">
+            <span class="logo__name">MiCris</span>
+            <span class="logo__descriptor">Uitzendbureau</span>
+          </div>
+          <p>Uitzendbureau voor open teelten en GWW. Gecertificeerd, betrouwbaar, dichtbij.</p>
+        </div>
+        <div>
+          <h4>Branches</h4>
+          <ul>
+            <li><a href="open-teelten.html">Open teelten</a></li>
+            <li><a href="gww.html">Grond-, weg- en waterbouw</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Bedrijf</h4>
+          <ul>
+            <li><a href="over-ons.html">Over ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Direct contact</h4>
+          <ul>
+            <li><a href="tel:+31000000000">+31 (0)0 000 00 00</a></li>
+            <li><a href="mailto:info@micris-uitzendbureau.nl">info@micris-uitzendbureau.nl</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> MiCris Uitzendbureau B.V. · KvK 00000000 · SNA / NEN 4400-1 / ABU</span>
+        <span><a href="#">Privacy</a> · <a href="#">Algemene voorwaarden</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.nav__toggle');
+      var list = document.getElementById('primary-nav');
+      if (!btn || !list) return;
+      btn.addEventListener('click', function () {
+        var open = list.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

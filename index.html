@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MiCris Uitzendbureau — vakkrachten voor open teelten en GWW</title>
+  <meta name="description" content="MiCris Uitzendbureau B.V. levert gemotiveerde vakkrachten aan fruittelers en GWW-aannemers. SNA- en ABU-gecertificeerd. Bel direct voor personeel." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================
+       HEADER
+       ============================================ -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="logo" aria-label="MiCris Uitzendbureau — naar homepagina">
+        <span class="logo__name">MiCris</span>
+        <span class="logo__descriptor">Uitzendbureau</span>
+      </a>
+
+      <button class="nav__toggle" aria-label="Menu openen" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links" id="primary-nav">
+        <li><a href="index.html" class="is-active">Home</a></li>
+        <li><a href="open-teelten.html">Open teelten</a></li>
+        <li><a href="gww.html">GWW</a></li>
+        <li><a href="over-ons.html">Over ons</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" class="btn btn--outline">Personeel aanvragen</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============================================
+       HERO
+       ============================================ -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <span class="eyebrow">Open teelten &amp; GWW</span>
+        <h1 class="hero__title">Vakkrachten die meteen aan de slag kunnen.</h1>
+        <p class="hero__lead">
+          MiCris Uitzendbureau levert gemotiveerde uitzendkrachten aan fruittelers en GWW-aannemers.
+          Van oogstpiek tot meerjarig infraproject — wij regelen de mensen, u houdt de regie.
+        </p>
+        <div class="hero__cta">
+          <a href="contact.html" class="btn btn--primary">
+            Personeel aanvragen
+            <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+          <a href="#branches" class="btn btn--outline">Onze branches</a>
+        </div>
+
+        <div class="hero__trust">
+          <div class="trust-item">
+            <p class="trust-item__value">SNA</p>
+            <p class="trust-item__label">NEN 4400-1 gecertificeerd</p>
+          </div>
+          <div class="trust-item">
+            <p class="trust-item__value">ABU</p>
+            <p class="trust-item__label">Erkend uitzendbureau</p>
+          </div>
+          <div class="trust-item">
+            <p class="trust-item__value">24/7</p>
+            <p class="trust-item__label">Bereikbaar voor spoed</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__visual" role="img" aria-label="Sfeerbeeld van een boomgaard met oogstmedewerker tijdens zonsopgang">
+        <!-- Illustratie als placeholder voor echte foto -->
+        <svg viewBox="0 0 600 520" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%"  stop-color="#2E5A3F"/>
+              <stop offset="100%" stop-color="#17301F"/>
+            </linearGradient>
+            <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%"  stop-color="#5C4A2E"/>
+              <stop offset="100%" stop-color="#3A2E1C"/>
+            </linearGradient>
+          </defs>
+          <!-- sky -->
+          <rect x="0" y="0" width="600" height="360" fill="url(#sky)"/>
+          <!-- sun glow -->
+          <circle cx="460" cy="110" r="80" fill="#D98E2B" opacity="0.18"/>
+          <circle cx="460" cy="110" r="42" fill="#D98E2B" opacity="0.4"/>
+          <circle cx="460" cy="110" r="22" fill="#E8A44B" opacity="0.7"/>
+          <!-- far tree row -->
+          <g opacity="0.45">
+            <ellipse cx="60"  cy="290" rx="55" ry="22" fill="#17301F"/>
+            <ellipse cx="180" cy="285" rx="55" ry="22" fill="#17301F"/>
+            <ellipse cx="320" cy="285" rx="55" ry="22" fill="#17301F"/>
+            <ellipse cx="460" cy="285" rx="55" ry="22" fill="#17301F"/>
+            <ellipse cx="580" cy="290" rx="55" ry="22" fill="#17301F"/>
+          </g>
+          <!-- mid row -->
+          <g opacity="0.8">
+            <ellipse cx="90"  cy="270" rx="70" ry="55" fill="#1A3823"/>
+            <rect x="85"  y="270" width="10" height="55" fill="#3A2615"/>
+            <ellipse cx="260" cy="265" rx="68" ry="52" fill="#1A3823"/>
+            <rect x="256" y="265" width="9" height="55" fill="#3A2615"/>
+            <ellipse cx="420" cy="262" rx="65" ry="50" fill="#1A3823"/>
+            <rect x="417" y="262" width="8" height="55" fill="#3A2615"/>
+            <ellipse cx="555" cy="265" rx="55" ry="45" fill="#1A3823"/>
+            <rect x="552" y="265" width="7" height="50" fill="#3A2615"/>
+          </g>
+          <!-- ground -->
+          <rect x="0" y="340" width="600" height="180" fill="url(#ground)"/>
+          <!-- path -->
+          <path d="M 240 340 L 360 520 L 240 520 Z" fill="#6B5535" opacity="0.5"/>
+          <!-- foreground tree left -->
+          <g>
+            <rect x="58" y="280" width="14" height="80" fill="#2A1C0E"/>
+            <ellipse cx="65" cy="260" rx="95" ry="70" fill="#224A2F"/>
+            <!-- fruit -->
+            <circle cx="35" cy="240" r="5" fill="#D98E2B"/>
+            <circle cx="55" cy="225" r="5" fill="#D98E2B"/>
+            <circle cx="80" cy="235" r="5" fill="#D98E2B"/>
+            <circle cx="95" cy="265" r="5" fill="#C97A1A"/>
+            <circle cx="30" cy="270" r="5" fill="#D98E2B"/>
+            <circle cx="110" cy="250" r="5" fill="#D98E2B"/>
+            <circle cx="50" cy="290" r="5" fill="#C97A1A"/>
+          </g>
+          <!-- worker silhouette -->
+          <g transform="translate(310, 330)">
+            <!-- shadow -->
+            <ellipse cx="0" cy="90" rx="28" ry="5" fill="#000" opacity="0.25"/>
+            <!-- legs -->
+            <rect x="-10" y="35" width="8" height="55" fill="#1A1A1A"/>
+            <rect x="2"   y="35" width="8" height="55" fill="#1A1A1A"/>
+            <!-- body -->
+            <rect x="-14" y="-10" width="28" height="50" rx="6" fill="#2A2A2A"/>
+            <!-- arm holding basket -->
+            <rect x="12" y="5"  width="8" height="26" rx="2" fill="#2A2A2A" transform="rotate(20 16 16)"/>
+            <rect x="-22" y="0" width="8" height="30" rx="2" fill="#2A2A2A" transform="rotate(-15 -18 15)"/>
+            <!-- head -->
+            <circle cx="0" cy="-22" r="11" fill="#2E2722"/>
+            <!-- cap brim -->
+            <rect x="-14" y="-32" width="28" height="4" rx="2" fill="#1A1A1A"/>
+            <!-- basket -->
+            <rect x="18" y="22" width="22" height="16" rx="2" fill="#8A6A2E"/>
+            <rect x="18" y="22" width="22" height="3" fill="#6B5023"/>
+            <circle cx="23" cy="30" r="2" fill="#D98E2B"/>
+            <circle cx="29" cy="32" r="2" fill="#D98E2B"/>
+            <circle cx="35" cy="29" r="2" fill="#D98E2B"/>
+          </g>
+          <!-- subtle dust particles -->
+          <circle cx="200" cy="180" r="1.5" fill="#D98E2B" opacity="0.4"/>
+          <circle cx="380" cy="150" r="1.5" fill="#D98E2B" opacity="0.4"/>
+          <circle cx="500" cy="200" r="1.5" fill="#D98E2B" opacity="0.3"/>
+          <circle cx="140" cy="210" r="1.5" fill="#D98E2B" opacity="0.35"/>
+        </svg>
+
+        <div class="hero__visual-caption">Sfeerbeeld — hier komt een echte foto</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       BRANCHES
+       ============================================ -->
+  <section class="section section--alt" id="branches">
+    <div class="container">
+      <span class="eyebrow">Onze branches</span>
+      <h2>Twee branches, één werkwijze.</h2>
+      <p style="max-width: 620px; color: var(--c-text-mute); margin-bottom: 0;">
+        We zijn gespecialiseerd in twee sectoren waar vakmanschap, timing en betrouwbaarheid alles bepalen.
+        Bekijk wat we voor uw bedrijf kunnen betekenen.
+      </p>
+
+      <div class="branches-grid">
+        <!-- Open teelten -->
+        <a href="open-teelten.html" class="branche-card">
+          <div class="branche-card__visual" aria-hidden="true">
+            <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="400" height="140" fill="#2E5A3F"/>
+              <rect x="0" y="140" width="400" height="85" fill="#4A3A24"/>
+              <!-- rows of trees -->
+              <g>
+                <ellipse cx="50"  cy="135" rx="40" ry="30" fill="#1F3D2B"/>
+                <ellipse cx="140" cy="130" rx="42" ry="32" fill="#1F3D2B"/>
+                <ellipse cx="235" cy="128" rx="44" ry="34" fill="#1F3D2B"/>
+                <ellipse cx="335" cy="130" rx="42" ry="32" fill="#1F3D2B"/>
+                <!-- fruit hints -->
+                <circle cx="40"  cy="125" r="3" fill="#D98E2B"/>
+                <circle cx="60"  cy="140" r="3" fill="#D98E2B"/>
+                <circle cx="135" cy="125" r="3" fill="#D98E2B"/>
+                <circle cx="230" cy="120" r="3" fill="#D98E2B"/>
+                <circle cx="245" cy="135" r="3" fill="#D98E2B"/>
+                <circle cx="330" cy="128" r="3" fill="#D98E2B"/>
+              </g>
+              <!-- trunks -->
+              <rect x="47"  y="135" width="6" height="20" fill="#2A1C0E"/>
+              <rect x="137" y="132" width="6" height="22" fill="#2A1C0E"/>
+              <rect x="232" y="130" width="6" height="24" fill="#2A1C0E"/>
+              <rect x="332" y="132" width="6" height="22" fill="#2A1C0E"/>
+              <!-- sun -->
+              <circle cx="340" cy="40" r="25" fill="#D98E2B" opacity="0.3"/>
+              <circle cx="340" cy="40" r="14" fill="#E8A44B" opacity="0.8"/>
+            </svg>
+          </div>
+          <div class="branche-card__body">
+            <span class="branche-card__tag">Open teelten</span>
+            <h3 class="branche-card__title">Fruittelers, boomkwekerijen &amp; akkerbouw</h3>
+            <p class="branche-card__desc">
+              Oogstmedewerkers, snoeiers, sorteerders en allround agrarisch personeel.
+              Precies op tijd beschikbaar, ook bij korte pieken.
+            </p>
+            <span class="branche-card__link">
+              Meer over open teelten
+              <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+
+        <!-- GWW -->
+        <a href="gww.html" class="branche-card">
+          <div class="branche-card__visual" aria-hidden="true">
+            <svg viewBox="0 0 400 225" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0" y="0" width="400" height="140" fill="#2E5A3F"/>
+              <rect x="0" y="140" width="400" height="85" fill="#4A3A24"/>
+              <!-- road -->
+              <polygon points="120,225 280,225 240,140 160,140" fill="#5A5652"/>
+              <rect x="196" y="160" width="8" height="18" fill="#F5F1E8"/>
+              <rect x="196" y="190" width="8" height="18" fill="#F5F1E8"/>
+              <!-- excavator -->
+              <g transform="translate(260,120)">
+                <rect x="0" y="30" width="45" height="18" rx="2" fill="#2C2C2A"/>
+                <rect x="5" y="15" width="30" height="18" rx="2" fill="#D98E2B"/>
+                <rect x="12" y="18" width="18" height="8" fill="#1F3D2B" opacity="0.5"/>
+                <!-- arm -->
+                <polygon points="35,20 55,5 60,10 42,26" fill="#D98E2B"/>
+                <polygon points="55,5 78,14 76,20 55,12" fill="#D98E2B"/>
+                <!-- bucket -->
+                <polygon points="74,12 86,20 82,28 70,22" fill="#2C2C2A"/>
+                <!-- tracks -->
+                <rect x="-2" y="47" width="50" height="7" rx="3" fill="#1A1A1A"/>
+                <circle cx="5" cy="50" r="3" fill="#444"/>
+                <circle cx="20" cy="50" r="3" fill="#444"/>
+                <circle cx="35" cy="50" r="3" fill="#444"/>
+                <circle cx="45" cy="50" r="3" fill="#444"/>
+              </g>
+              <!-- pylons -->
+              <g transform="translate(80, 155)">
+                <polygon points="0,0 6,0 9,25 -3,25" fill="#D98E2B"/>
+                <rect x="-4" y="24" width="14" height="3" fill="#2C2C2A"/>
+              </g>
+              <g transform="translate(120, 160)">
+                <polygon points="0,0 6,0 9,20 -3,20" fill="#D98E2B"/>
+                <rect x="-4" y="19" width="14" height="3" fill="#2C2C2A"/>
+              </g>
+              <!-- worker silhouette -->
+              <g transform="translate(170, 135)">
+                <rect x="-3" y="10" width="3" height="18" fill="#1A1A1A"/>
+                <rect x="1"  y="10" width="3" height="18" fill="#1A1A1A"/>
+                <rect x="-5" y="-5" width="10" height="15" rx="2" fill="#D98E2B"/>
+                <circle cx="0" cy="-10" r="4" fill="#2E2722"/>
+                <rect x="-5" y="-14" width="10" height="2" fill="#1A1A1A"/>
+              </g>
+            </svg>
+          </div>
+          <div class="branche-card__body">
+            <span class="branche-card__tag">GWW</span>
+            <h3 class="branche-card__title">Grond-, weg- en waterbouw</h3>
+            <p class="branche-card__desc">
+              Grondwerkers, machinisten, stratenmakers en uitvoerders.
+              Gecertificeerd personeel dat meteen aan de slag kan op uw bouwplaats.
+            </p>
+            <span class="branche-card__link">
+              Meer over GWW
+              <svg class="arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+            </span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       WAAROM MICRIS
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <span class="eyebrow">Waarom MiCris</span>
+      <h2>Een partner die meedenkt, niet alleen doorverbindt.</h2>
+
+      <div class="usp-grid">
+        <div class="usp">
+          <div class="usp__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 8v4l3 2"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <h3 class="usp__title">Snel geschakeld</h3>
+          <p class="usp__desc">Binnen één werkdag reactie, vaak dezelfde dag iemand op de werkplek. Ook buiten kantooruren.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon">
+            <svg viewBox="0 0 24 24"><path d="M12 22s-8-4.5-8-12a8 8 0 0 1 16 0c0 7.5-8 12-8 12z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="usp__title">Kennis van de sector</h3>
+          <p class="usp__desc">CAO Open Teelten én de GWW-normen kennen we van binnen en buiten. Geen misverstanden, geen verrassingen.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon">
+            <svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 4.97-4.03 9-9 9s-9-4.03-9-9 4.03-9 9-9 9 4.03 9 9z"/></svg>
+          </div>
+          <h3 class="usp__title">Gecertificeerd</h3>
+          <p class="usp__desc">SNA/NEN 4400-1, ABU-lidmaatschap en correcte afdrachten. Inlenersaansprakelijkheid is bij ons goed geregeld.</p>
+        </div>
+        <div class="usp">
+          <div class="usp__icon">
+            <svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="4"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg>
+          </div>
+          <h3 class="usp__title">Gemotiveerde mensen</h3>
+          <p class="usp__desc">Wij selecteren op inzet, niet alleen op cv. Onze vakkrachten komen terug — en dat zegt genoeg.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ZO WERKEN WE
+       ============================================ -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="eyebrow">Zo werken we</span>
+      <h2>In drie stappen personeel op uw werk.</h2>
+
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3 class="step__title">U belt of mailt</h3>
+          <p class="step__desc">Geef aan hoeveel mensen u nodig heeft, wanneer, en wat het werk inhoudt. Eén telefoontje is genoeg.</p>
+        </div>
+        <div class="step">
+          <div class="step__num step__num--accent">2</div>
+          <h3 class="step__title">Wij zoeken de match</h3>
+          <p class="step__desc">Binnen ons bestand selecteren we de juiste vakkrachten. Zonodig overleggen we over de fijne kneepjes van de klus.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3 class="step__title">Ze staan klaar</h3>
+          <p class="step__desc">Op de afgesproken dag en tijd op uw locatie. Wij regelen de administratie, u richt zich op het werk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       OVER ONS TEASER
+       ============================================ -->
+  <section class="section">
+    <div class="container">
+      <div class="about-teaser">
+        <div class="about-teaser__visual" aria-hidden="true">
+          <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0" y="0" width="400" height="300" fill="#1F3D2B"/>
+            <!-- suggestion of handshake / team -->
+            <g opacity="0.9">
+              <!-- left figure -->
+              <circle cx="130" cy="120" r="28" fill="#2E5A3F"/>
+              <rect x="100" y="148" width="60" height="90" rx="8" fill="#2E5A3F"/>
+              <!-- right figure -->
+              <circle cx="270" cy="120" r="28" fill="#224A2F"/>
+              <rect x="240" y="148" width="60" height="90" rx="8" fill="#224A2F"/>
+              <!-- handshake in middle -->
+              <rect x="155" y="180" width="90" height="16" rx="4" fill="#D98E2B"/>
+              <circle cx="200" cy="188" r="10" fill="#C97A1A"/>
+            </g>
+            <!-- floor -->
+            <rect x="0" y="238" width="400" height="62" fill="#17301F"/>
+          </svg>
+        </div>
+        <div>
+          <span class="eyebrow">Over MiCris</span>
+          <h2>Nuchter, betrouwbaar en op de werkvloer thuis.</h2>
+          <p style="color: var(--c-text); font-size: 1.02rem;">
+            MiCris Uitzendbureau B.V. is ontstaan uit een eenvoudige overtuiging: de beste vakkrachten vind je door de sector écht te kennen.
+            Daarom richten we ons bewust op twee branches waarin we het verschil kunnen maken —
+            open teelten en grond-, weg- en waterbouw.
+          </p>
+          <p style="color: var(--c-text-mute);">
+            Geen massabureau, wel een stevig bestand. Korte lijnen, duidelijke afspraken, en bereikbaarheid
+            die de sector verwacht.
+          </p>
+          <a href="over-ons.html" class="btn btn--outline">
+            Meer over MiCris
+            <svg class="arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT STRIP
+       ============================================ -->
+  <section class="section section--alt">
+    <div class="container">
+      <span class="eyebrow">Contact</span>
+      <h2>Personeel nodig? Bel of mail direct.</h2>
+
+      <div class="contact-strip">
+        <div>
+          <h2>Liever even schakelen?</h2>
+          <p>
+            Eén telefoontje is vaak al genoeg om de juiste vakkrachten in beweging te krijgen.
+            Buiten kantooruren? Ook dan kunt u ons bereiken.
+          </p>
+        </div>
+        <div class="contact-strip__info">
+          <a href="tel:+31612345678" class="contact-strip__item">
+            <span class="icon">
+              <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </span>
+            <div>
+              <strong>+31612345678</strong>
+              <span class="meta">ma–za · 07:00–19:00 · spoed 24/7</span>
+            </div>
+          </a>
+          <a href="mailto:info@micris-uitzendbureau.nl" class="contact-strip__item">
+            <span class="icon">
+              <svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 5L2 7"/></svg>
+            </span>
+            <div>
+              <strong>info@micris-uitzendbureau.nl</strong>
+              <span class="meta">Antwoord binnen één werkdag</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer__brand">
+          <div class="logo" style="display:flex; flex-direction: column;">
+            <span class="logo__name">MiCris</span>
+            <span class="logo__descriptor">Uitzendbureau</span>
+          </div>
+          <p>Uitzendbureau voor open teelten en GWW. Gecertificeerd, betrouwbaar, dichtbij.</p>
+        </div>
+        <div>
+          <h4>Branches</h4>
+          <ul>
+            <li><a href="open-teelten.html">Open teelten</a></li>
+            <li><a href="gww.html">Grond-, weg- en waterbouw</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Bedrijf</h4>
+          <ul>
+            <li><a href="over-ons.html">Over ons</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Direct contact</h4>
+          <ul>
+            <li><a href="tel:+31612345678">+31612345678</a></li>
+            <li><a href="mailto:info@micris-uitzendbureau.nl">info@micris-uitzendbureau.nl</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span id="year"></span> MiCris Uitzendbureau B.V. · KvK 00000000 · SNA / NEN 4400-1 / ABU</span>
+        <span><a href="#">Privacy</a> · <a href="#">Algemene voorwaarden</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    (function () {
+      var btn = document.querySelector('.nav__toggle');
+      var list = document.getElementById('primary-nav');
+      if (!btn || !list) return;
+      btn.addEventListener('click', function () {
+        var open = list.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      });
+    })();
+    // Year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
