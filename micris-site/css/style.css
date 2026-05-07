@@ -273,6 +273,13 @@ p  { margin: 0 0 1em; }
   width: 100%;
   height: 100%;
 }
+.hero__visual img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .hero__visual-caption {
   position: absolute;
   bottom: 14px;
@@ -699,8 +706,8 @@ p  { margin: 0 0 1em; }
   margin-bottom: 0.9rem;
 }
 .contact-card__icon {
-  width: 42px;
-  height: 42px;
+  width: 26px;
+  height: 26px;
   border-radius: var(--radius);
   background: rgba(31, 61, 43, 0.08);
   color: var(--c-primary);
@@ -714,8 +721,9 @@ p  { margin: 0 0 1em; }
   color: #8a5a32;
 }
 .contact-card__icon svg {
-  width: 20px;
-  height: 20px;
+  width: 12px;
+  height: 12px;
+  max-width: none;
   stroke: currentColor;
   fill: none;
   stroke-width: 1.8;
