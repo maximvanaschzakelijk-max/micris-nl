@@ -622,7 +622,7 @@ p  { margin: 0 0 1em; }
 /* Functie-lijst (twee kolommen) */
 .function-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 0.6rem 2rem;
   margin-top: 2rem;
   border-top: 1px solid var(--c-border);
