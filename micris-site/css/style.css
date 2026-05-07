@@ -295,7 +295,7 @@ p  { margin: 0 0 1em; }
 /* Branches tegels */
 .branches-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   gap: 1.5rem;
   margin-top: 2.5rem;
 }
