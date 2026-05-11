@@ -692,6 +692,15 @@ p  { margin: 0 0 1em; }
   gap: clamp(1.5rem, 3vw, 2.5rem);
   align-items: start;
 }
+.contact-phone-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+.contact-phone-row .contact-card {
+  margin-bottom: 0;
+}
 .contact-card {
   display: grid;
   grid-template-columns: auto 1fr;
@@ -746,6 +755,7 @@ p  { margin: 0 0 1em; }
 
 @media (max-width: 960px) {
   .contact-grid { grid-template-columns: 1fr; }
+  .contact-phone-row { grid-template-columns: 1fr; }
 }
 
 /* Feature-blok (seizoenspieken) — tekst + visual */
