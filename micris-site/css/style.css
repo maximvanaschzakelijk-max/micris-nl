@@ -550,7 +550,7 @@ p  { margin: 0 0 1em; }
 }
 .page-hero__grid {
   display: grid;
-  grid-template-columns: 1.15fr 1fr;
+  grid-template-columns: 1fr;
   gap: clamp(2rem, 4vw, 3rem);
   align-items: center;
 }
