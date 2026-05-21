@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirect www naar non-www
+RewriteCond %{HTTP_HOST} ^www\.micris\.nl [NC]
+RewriteRule ^(.*)$ https://micris.nl/$1 [R=301,L]
+
+# Redirect HTTP naar HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
